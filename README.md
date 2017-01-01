@@ -1,4 +1,4 @@
-# shuffle [![Join the chat at https://gitter.im/ZenyWay/randomshuffle](https://badges.gitter.im/ZenyWay/randomshuffle.svg)](https://gitter.im/ZenyWay/randomshuffle?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# randomshuffle [![Join the chat at https://gitter.im/ZenyWay/randomshuffle](https://badges.gitter.im/ZenyWay/randomshuffle.svg)](https://gitter.im/ZenyWay/randomshuffle?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![NPM](https://nodei.co/npm/randomshuffle.png?compact=true)](https://nodei.co/npm/randomshuffle/)
 [![build status](https://travis-ci.org/ZenyWay/randomshuffle.svg?branch=master)](https://travis-ci.org/ZenyWay/randomshuffle)
 [![coverage status](https://coveralls.io/repos/github/ZenyWay/randomshuffle/badge.svg?branch=master)](https://coveralls.io/github/ZenyWay/randomshuffle)
@@ -10,7 +10,7 @@ with the [Fisher-Yates algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Y
 # <a name="example"></a> example
 ```ts
 import getShuffle from 'randomshuffle'
-const shuffle = getShuffle() // optionally inject 'randombytes' replacement with { randombytes: replacement }
+const shuffle = getShuffle() // optionally inject 'randomwords' replacement with { randomwords: replacement }
 
 import debug = require('debug')
 const log = debug('example')
